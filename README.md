@@ -5,10 +5,9 @@ This project is a payment processing application built with React, TypeScript, a
 ## Table of Contents
 1. [Features](#features)
 2. [Getting Started](#getting-started)
-3. [Usage](#usage)
-4. [Technologies](#technologies)
-5. [Folder Structure](#folder-structure)
-6. [Contributing](#contributing)
+3. [How it works](#how-it-works)
+4. [Usage](#usage)
+5. [Key files](#key-files)
 
 ## Features
 * Initiates payment process via URL parameters.
@@ -35,7 +34,7 @@ git clone https://github.com/deelaurence/resume-vantage-payment.git
 cd payment-processing-app
 ```
 
-### how it works
+### How it works
 
 http://localhost:5173/?token=abc123token&amount=1000&description=premium
 
