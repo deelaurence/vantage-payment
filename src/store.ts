@@ -29,7 +29,7 @@ class Store {
         const { redirect } = response.data.payload;
         console.log(redirect)
         // Redirect to Paystack checkout page
-        // window.location.href = redirect;
+        window.location.href = redirect;
     } catch (error:any) {
         const errorFromApi:string = error.response.data.reason
         console.error('Error initiating Paystack payment:', error);
